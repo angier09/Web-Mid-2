@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>Total Width</title>
+
+</head>
+<body>
+
+    <div id="selected">
+        <p>Red</p>
+        <p>White</p>
+        <p>Green</p>
+        <p>Black</p>
+        <p>Blue</p>
+        <p>Orange</p>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            // Count the number of 'p' elements within the '#selected' div
+            var countPElements = $("#selected p").length;
+
+            // Log the result to the console
+            console.log("Number of 'p' elements:", countPElements);
+        });
+    </script>
+</body>
+</html>
