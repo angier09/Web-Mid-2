@@ -1,0 +1,1 @@
+<h1>jQuery assignments and activities</h1>
