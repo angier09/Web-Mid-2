@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <title>Div Animation</title>
+    <style>
+        #animatedDiv {
+            width: 100px;
+            height: 10vh; /* or height: 100px; */
+            background-color: #52eb8d;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <div id="animatedDiv" style="text-align: center;">Animation</div>
+
+    <script>
+        $(document).ready(function() {
+            // Select the div to be animated
+            var $animatedDiv = $("#animatedDiv");
+
+            // Perform the animation (both left and down) over 8 seconds
+            $animatedDiv.animate({
+                left: "+=300px",
+                top: "+=200px"
+                
+            }, 8000); // 8000 milliseconds (8 seconds)
+        });
+    </script>
+</body>
+</html>
