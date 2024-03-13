@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Table Row</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="Q4.css" rel="stylesheet">
+    <script>
+        $(document).ready(function() 
+        {
+            $(".btn-danger").click(function()
+            {
+                $(this).parent().remove();
+
+            });
+        });
+    </script>
+</head>
+<body style="margin: 3rem;">
+
+    <h2>Table with Remove Button</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th style="text-align: center;">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Hateem</td>
+                <td>hateem@email.com</td>
+                <td class="btn btn-danger">Remove</td>
+            </tr>
+            <tr>
+                <td>Abubakar</td>
+                <td>Abubakar@gmail.com</td>
+                <td class="btn btn-danger">Remove</td>
+            </tr>
+            <tr>
+                <td>Ibrahim</td>
+                <td>Ibrahim@gmail.com</td>
+                <td class="btn btn-danger">Remove</td>
+            </tr>
+            <tr>
+                <td>Ali</td>
+                <td>Ali@gmail.com</td>
+                <td class="btn btn-danger">Remove</td>
+            </tr>
+            <tr>
+                <td>Babar Azam</td>
+                <td>Babar Azam@gmail.com</td>
+                <td class="btn btn-danger">Remove</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
