@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Q5.css"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Form</title>
+
+    <script>
+        $(document).ready(function()
+        {
+            // Attach click event listener to all elements
+            $("*").click(function() 
+            {
+                // Log class and id of the clicked element
+                var elementClass = $(this).attr('class');
+                var elementId = $(this).attr('id');
+                console.log("Class:", elementClass, "Id:", elementId);
+            });
+        });
+    </script>
+</head>
+
+<body>
+   
+    <div class="Form" id="Form" style="background-color: rgb(119, 119, 196);">
+        <form>
+            <br>
+            <input type="text" id="name" class="name" name="name" placeholder="Name*" style="text-align: center; margin-bottom: 10px;">
+            <br>
+            <input type="text" id="userName" class="userName" name="userName" placeholder="Username*" style="margin-bottom: 10px;">
+            <br>
+            <input type="password" id="password" class="password" name="password" placeholder="Password*" style="margin-bottom: 10px;">
+            <br>
+            <input type="text" id="number" class="phNumber" name="number" placeholder="Number*" style="margin-bottom: 10px;">
+            <br>
+            <input type="email" id="email" class="email" name="email" placeholder="Email Id*" style="margin-bottom: 10px;">
+        
+            <div class="register">
+                <input type="submit" value="Register" style="background-color: rgb(103, 212, 152); font-size: 16px">
+            </div>
+        
+        </form>
+    </div>
+
+</body>
+</html>
