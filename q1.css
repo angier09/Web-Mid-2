@@ -1,0 +1,20 @@
+/* This is a one-line CSS comment */
+
+/* 
+This is a multi-line  CSS comment because
+it spans multiple lines
+*/
+
+/* Commented the paragraph ruleset below */
+/* 
+    p {
+    color: red;
+    font-size: 1.2rem;
+    } */
+
+/* Below is an uncommented */
+h1 
+{
+    background-color: rgb(230, 95, 158);
+    border-radius: 5px;
+}
