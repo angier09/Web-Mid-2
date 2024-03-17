@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9f8ead;
+    color: #4d0886;
+    font-family: 'Segoe UI';
+}
+
+#clock {
+    font-size: 60px;
+    letter-spacing: 2px;
+}
+
+#hours, #minutes, #seconds {
+    padding: 10px;
+}
+
+#minutes, #seconds {
+    border-left: 2px solid #072730;
+}
