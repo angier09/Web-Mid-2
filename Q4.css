@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-color: #fdd8ecfd;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff00aa;
+    color: white;
+}
+
+#results p, #scoreboard p {
+    font-size: 20px;
+    margin: 5px;
+}
+
+#scoreboard {
+    margin-top: 5rem;
+    color: rgb(163, 6, 66);
+}
